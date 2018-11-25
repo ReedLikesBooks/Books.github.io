@@ -12,11 +12,18 @@
 </head>
 
 <body>
-<p>Hi! 'Tisseeeeeeekey Mofddddddddus;klllllllllllke! Ohanaggggggggggggggggggg meajjjjjjjjjjjjjjjjns ffffff family</p>
+<p>Hi! 'Tisseeeeeeekey Mofddddddddus;klllllllllllke! </p>
   <canvas id="myCanvas" width="200" height="200"></canvas>
   
   
   <script src="./script.js">
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    if(2 < 3){
+    ctx.beginPath();
+    ctx.arc(95, 150, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+    }
   </script>
 </body>
 
